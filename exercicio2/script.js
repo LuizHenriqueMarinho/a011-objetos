@@ -1,3 +1,15 @@
+// # Exercício 2
+
+// Leia o código abaixo, e responda:
+
+// a) Qual o código para imprimir o nome do **primeiro** ator/atriz?
+
+// b) Qual o código para imprimir o nome do **último** ator/atriz?
+
+// c) Qual o código para exibir o array com **todas** as transmissões de hoje?
+
+// d) Qual o código para exibir o **horário** de transmissão do filme no `Canal Brasil`?
+
 const filme = {
 	nome: "Auto da Compadecida", 
 	ano: 2000, 
@@ -12,4 +24,15 @@ const filme = {
 		]
 };
 
-// respostas aqui ⬇️
+// respostas aqui ⬇
+//a)
+console.log(filme.elenco[0])
+
+//b)
+console.log(filme.elenco[3])
+
+//c)
+console.log(filme.transmissoesHoje)
+
+//d)
+console.log(filme.transmissoesHoje[1].horario)
